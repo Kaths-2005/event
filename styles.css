@@ -1,0 +1,963 @@
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+.navbar {
+    background-color: darkblue;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left-panel {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center-panel {
+    text-align: center;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.event-post {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.event-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reactions span {
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.comments p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: darkblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Payment Container */
+.payment-container {
+    width: 80%;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.payment-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Event Details */
+.event-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.event-details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: #f4f6f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.booking-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.booking-form input[type="number"],
+.booking-form input[type="text"],
+.booking-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+}
+
+.booking-form button:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f0f2f5;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h2, h3 {
+    color: #333;
+}
+
+/* Navbar Styles */
+.navbar {
+    background-color: #4CAF50;
+    padding: 1rem;
+    text-align: center;
+}
+
+.navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar ul li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 1.1rem;
+    transition: color 0.3s;
+}
+
+.navbar ul li a:hover {
+    color: #f0f0f0;
+}
+
+/* Payment Container */
+.payment-container {
+    width: 80%;
+    max-width: 800px;
+    margin: 50px auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+.payment-header {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #4CAF50;
+}
+
+/* Event Details */
+.event-details {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    margin-bottom: 30px;
+}
+
+.event-details p {
+    font-size: 1.1rem;
+    margin: 10px 0;
+}
+
+/* Booking Form */
+.booking-form {
+    background-color: #f4f6f8;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.booking-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 1.1rem;
+    color: #333;
+}
+
+.booking-form input[type="number"],
+.booking-form input[type="text"],
+.booking-form input[type="email"] {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.booking-form .form-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+
+/* Buttons */
+.booking-form button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1rem;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.booking-form button:hover {
+    background-color: #45a049;
+}
+
+.booking-form .cancel-btn {
+    background-color: #ff4d4d;
+    color: white;
+    width: 48%;
+}
+
+.booking-form .cancel-btn:hover {
+    background-color: #e60000;
+}
+
+.booking-form .pay-btn {
+    background-color: #4CAF50;
+    color: white;
+    width: 48%;
+}
+
+.booking-form .pay-btn:hover {
+    background-color: #45a049;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px;
+    background-color: #4CAF50;
+    color: white;
+}
+
+footer p {
+    margin: 0;
+}
+/* General page styling */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Calendar container */
+#calendar {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Calendar event item styling */
+#calendar div {
+    margin: 5px 0;
+    padding: 10px;
+    background-color: #f0f0f0;
+    border-radius: 5px;
+    width: 80%;
+    text-align: left;
+    font-size: 1.1em;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+#calendar div:hover {
+    transform: scale(1.02);
+    background-color: #e2e6ea;
+}
+
+/* Add Event Button */
+button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    outline: none;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+button:active {
+    background-color: #003f7f;
+}
+
+/* Event modal styling */
+#eventModal {
+    display: none;
+    position: fixed;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: white;
+    border: 1px solid #ccc;
+    padding: 20px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+    z-index: 1000;
+    width: 300px;
+    border-radius: 10px;
+}
+
+/* Modal inputs */
+#eventModal input {
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+    width: 100%;
+    font-size: 1em;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Save Event button styling */
+#saveEventBtn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.1em;
+    margin-top: 10px;
+    transition: background-color 0.3s ease-in-out;
+}
+
+#saveEventBtn:hover {
+    background-color: #218838;
+}
+
+#saveEventBtn:active {
+    background-color: #1e7e34;
+}
+
+/* Modal Overlay */
+#eventModal::backdrop {
+    background: rgba(0, 0, 0, 0.5);
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 600px) {
+    #calendar div {
+        width: 95%;
+    }
+    
+    #eventModal {
+        width: 90%;
+    }
+}
+
+/* General body style for all pages */
+body {
+    background-image: url("C:\XAMPP\htdocs\EVENTIFY\sfit.jpg");
+   background-color: #cccccc;
+   background-repeat: no-repeat;
+ background-attachment: fixed;  
+ background-size: cover;
+ font-family: Arial, sans-serif;
+ background-color: #f4f4f4;
+ margin: 0;
+ padding: 50px;
+}
+
+/* Homepage styles */
+h1 {
+ color: white;
+ text-align: center;
+ margin-top: 200px;
+ font-size: 48px;
+}
+
+.login-btn {
+ position: absolute;
+ top: 20px;
+ right: 20px;
+ background-color: #007BFF;
+ color: white;
+ padding: 10px 20px;
+ border: none;
+ cursor: pointer;
+ font-size: 16px;
+ border-radius: 5px;
+}
+
+.login-btn:hover {
+ background-color: #0056b3;
+}
+
+/* Form container styles */
+.form-container {
+ background-color: white;
+ padding: 20px;
+ border-radius: 5px;
+ max-width: 400px;
+ margin: 0 auto;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Form group styles */
+.form-group {
+ margin-bottom: 15px;
+}
+
+label {
+ display: block;
+ margin-bottom: 5px;
+}
+
+input {
+ width: 100%;
+ padding: 8px;
+ margin: 5px 0;
+ box-sizing: border-box;
+ border: 1px solid #ccc;
+ border-radius: 4px;
+}
+
+button {
+ width: 100%;
+ background-color: #007BFF;
+ color: white;
+ padding: 10px;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+button:hover {
+ background-color: #0056b3;
+}
+body{
+ background-image: url('sfit.jpg');
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    background: url('assets/images/background.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: white;
+    margin: 0;
+}
+
+.navbar {
+    background-color: darkblue;
+    padding: 15px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    padding: 20px;
+    gap: 20px;
+}
+
+.left-panel {
+    background: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.center-panel {
+    text-align: center;
+}
+
+.user-info {
+    margin-bottom: 20px;
+}
+
+.info-box {
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 20px;
+    border-radius: 10px;
+    color: black;
+    font-size: 18px;
+}
+
+.event-post {
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 15px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.event-post img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.reactions span {
+    cursor: pointer;
+    margin: 0 10px;
+    font-size: 24px;
+}
+
+.comments p {
+    font-size: 14px;
+    color: #ccc;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: darkblue;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+h1 {
+    color: darkblue;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #ccc;
+}
+
+td:hover {
+    cursor: pointer;
+    background-color: #e0e0e0;
+}
+
+.event-details p{
+color: #444;
+}
+.virtual_ticket>p{
+    color: #333;
+}
+td{
+    color: #444;
+}
+th{
+    color: #333;
+}
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+/* Navbar */
+.navbar {
+    background-color: #333;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 2rem;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+.navbar ul li a:hover {
+    color: #f4c10b;
+}
+
+/* Main Content */
+.main-content {
+    display: flex;
+    padding: 2rem;
+    gap: 2rem;
+}
+
+/* Left Panel (Calendar) */
+.left-panel {
+    flex: 1;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: fadeIn 1s ease;
+}
+
+/* Center Panel */
+.center-panel {
+    flex: 2;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    animation: slideIn 1s ease;
+}
+
+.user-info .info-box {
+    margin-bottom: 1rem;
+    font-size: 16px;
+    color: #555;
+}
+
+.events {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.event-post {
+    background-color: #f7f7f7;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    animation: fadeInUp 1.2s ease;
+}
+
+.event-post:hover {
+    transform: scale(1.02);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.event-post img {
+    width: 80%;
+    height: auto;
+}
+
+.event-post p {
+    margin: 0.5rem 1rem;
+}
+
+.reactions {
+    display: flex;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.reactions span {
+    cursor: pointer;
+    font-size: 18px;
+    transition: transform 0.2s ease;
+}
+
+.reactions span:hover {
+    transform: scale(1.3);
+    color: #f4c10b;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #333;
+    color: #fff;
+    margin-top: 2rem;
+}
+
+/* Animations */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-20px);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.alertbutton{
+    color: black;
+}
+.alerttext{
+    color: black;
+    text-decoration: none;
+}
+.alert-section{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+}
+.alertstext{
+    font-size: large;
+}
+.alertul{
+    display: flex;
+    flex-direction: column;
+    align-content: space-evenly;
+    font-size: larger;
+    
+}
+body {
+    font-family: Arial, sans-serif;
+}
+
+.navbar {
+    background-color: #333;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+}
+
+.navbar ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome-box, .post-event, .events-section {
+    padding: 20px;
+    margin: 10px;
+}
+
+.post-event input, .post-event button {
+    margin: 5px 0;
+    padding: 8px;
+}
+
+.event-post {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+.event-post img {
+    max-width: 100px;
+    max-height: 100px;
+    margin-right: 10px;
+}
+
+.events-section {
+    margin-top: 20px;
+}
+
